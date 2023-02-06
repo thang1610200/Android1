@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="login">log in</string>
+    <string name="email">Email:</string>
+    <string name="phone">Phone:</string>
+    <string name="pass">Password:</string>
+    <string name="email_edit">Email</string>
+    <string name="phone_edit">Phone</string>
+    <string name="pass_edit">Password</string>
+    <string name="student">20110568-Nguyễn Hữu Thắng</string>
+</resources>
