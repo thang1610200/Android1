@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="login">#6600ff</color>
     <color name="hint">#ccccb3</color>
+    <color name="linear">#eff5f5</color>
 </resources>

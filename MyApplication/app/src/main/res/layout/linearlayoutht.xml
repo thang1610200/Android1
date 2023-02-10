@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="20dp"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/merriweather_bold"
+            android:text="@string/user_view"
+            android:textSize="15sp"
+            android:layout_weight="2"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/usernametext"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:hint="@string/user"
+            android:background="@color/linear"
+            android:fontFamily="@font/merriweather_regular"
+            android:inputType="text"
+            android:autofillHints=""
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingTop="20dp">
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/merriweather_bold"
+            android:text="@string/phone"
+            android:textSize="15sp"
+            android:layout_weight="2"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/phonetext"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:hint="@string/phone_edit"
+            android:background="@color/linear"
+            android:fontFamily="@font/merriweather_regular"
+            android:inputType="phone"
+            android:autofillHints=""
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingTop="20dp">
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/merriweather_bold"
+            android:text="@string/email"
+            android:textSize="15sp"
+            android:layout_weight="2"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/emailtext"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:hint="@string/email_edit"
+            android:background="@color/linear"
+            android:fontFamily="@font/merriweather_regular"
+            android:inputType="textEmailAddress"
+            android:autofillHints=""
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingTop="20dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/cancel"
+            android:layout_weight="3"
+            android:id="@+id/cancel"
+            android:fontFamily="@font/merriweather_bold"
+            android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/submit"
+            android:layout_weight="3"
+            android:id="@+id/submit"
+            android:fontFamily="@font/merriweather_bold"
+            />
+    </LinearLayout>
+</LinearLayout>

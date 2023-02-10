@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyApplication</string>
+    <string name="app_name">20110568 - Nguyễn Hữu Thắng</string>
     <string name="login">log in</string>
     <string name="email">Email:</string>
     <string name="phone">Phone:</string>
@@ -8,4 +8,8 @@
     <string name="phone_edit">Phone</string>
     <string name="pass_edit">Password</string>
     <string name="student">20110568-Nguyễn Hữu Thắng</string>
+    <string name="user">Username</string>
+    <string name="user_view">Username: </string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
 </resources>
