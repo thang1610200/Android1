@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">20110568 - Nguyễn Hữu Thắng</string>
+    <string name="login">Đăng nhập</string>
+    <string name="email">E-mail:</string>
+    <string name="phone">Số điện thoại:</string>
+    <string name="pass">Mật khẩu:</string>
+    <string name="email_edit">E-mail</string>
+    <string name="phone_edit">Số điện thoại</string>
+    <string name="pass_edit">Mật khẩu</string>
+    <string name="student">20110568-Nguyễn Hữu Thắng</string>
+    <string name="names">Tên:</string>
+</resources>
