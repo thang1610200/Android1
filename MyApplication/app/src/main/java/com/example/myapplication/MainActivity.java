@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.change_language);
+        setContentView(R.layout.fragments_main);
 
 //        Button buttonkq = (Button) findViewById(R.id.btn);
 //        buttonkq.setOnClickListener((View v) -> {
