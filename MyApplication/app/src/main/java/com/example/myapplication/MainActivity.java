@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
 
 import android.os.Bundle;
 import android.view.View;
@@ -13,7 +14,33 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragments_main);
+        setContentView(R.layout.fragment_manager_main);
+        FirstFagment firstFagment = new FirstFagment();
+        SecondFragment secondFragment = new SecondFragment();
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction()
+                .replace(R.id.fragment,firstFagment)
+                .commit();
+
+        Button btnfragment1 = (Button) findViewById(R.id.btnFragment1);
+        btnfragment1.setOnClickListener((View v) -> {
+            fragmentManager.beginTransaction()
+                    .replace(R.id.fragment,firstFagment)
+                    .addToBackStack(null)
+                    .commit();
+        });
+
+        Button btnfragment2 = (Button) findViewById(R.id.btnFragment2);
+        btnfragment2.setOnClickListener((View v) -> {
+            fragmentManager.beginTransaction()
+                    .replace(R.id.fragment,secondFragment)
+                    .addToBackStack(null)
+                    .commit();
+        });
+
+
+
 
 //        Button buttonkq = (Button) findViewById(R.id.btn);
 //        buttonkq.setOnClickListener((View v) -> {
